@@ -8,7 +8,7 @@ Hi, welcome to the introductory workshop of detectem.
 4. Get the two files from this repository:
    - `wget https://raw.githubusercontent.com/alertot/detectem-workshop/master/docker-compose.yml`
    - `wget https://raw.githubusercontent.com/alertot/detectem-workshop/master/Dockerfile`
-5. Clone detectem: `git clone git@github.com:alertot/detectem.git`
+5. Clone detectem: `git clone https://github.com/alertot/detectem.git`
 6. Execute `docker-compose up -d` to set up the environment.
 
 ## Execute detectem
