@@ -11,6 +11,16 @@ Hi, welcome to the introductory workshop of detectem.
 5. Clone detectem: `git clone https://github.com/alertot/detectem.git`
 6. Execute `docker-compose up -d` to set up the environment.
 
+# Alternative method
+
+If the previous method fails because of network latency, try this:
+
+1. We will provide some urls where you're going to download python.tar.gz and splash.tar.gz
+2. Decompress them: `gzip -d python.tar.gz` and `gzip -d splash.tar.gz`.
+3. Load them in your docker environment using:
+   - `docker load -i python.tar`
+   - `docker load -i splash.tar`
+
 ## Execute detectem
 
 `docker-compose run --rm detectem https://domain.tld`
