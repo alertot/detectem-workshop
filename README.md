@@ -2,7 +2,7 @@ Hi, welcome to the introductory workshop of detectem.
 
 # Setup the environment
 
-1. Install [Docker CE](https://www.docker.com/products/docker-engine)
+1. Install [Docker CE](https://docs.docker.com/install/)
 2. Install [docker-compose](https://docs.docker.com/compose/install/)
 3. Create a directory i.e. `det-playground` and enter it.
 4. Get the two files from this repository:
